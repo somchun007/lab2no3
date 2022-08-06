@@ -14,18 +14,20 @@
 
 </head>
 <body >
-    <form>
+    
     <h1>เข้าสู่ระบบ</h1>
+
+    <form action="page1.html">
     <table>
 
         <tr> 
             <td>Username: </td>
-            <td><input type="text" name="uname" id="uname" pattern=".{6,}"></td>
+            <td><input type="text" name="uname" id="uname" required autofocus></td>
         </tr>
 
         <tr>
             <td>Password: </td>
-            <td><input type="password" name="password" id="password" pattern=".{6,}"></td>
+            <td><input type="password" name="password" id="password" required></td>
         </tr>
 
         <tr>
@@ -33,16 +35,14 @@
                 <label for="psign">กรุณาพิมพ์ตามตัวเลขที่ปรากฎ: 
                     <br>1559
                 </label> <br>
-                <input type="text" name="psign" id="psign" pattern="1559">
+                <input type="text" name="psign" id="psign" pattern="1559" required>
             </td>
         </tr>
 
     </table>
     <br>
 
-    <a href="page1.html">
-        <img src="https://media.istockphoto.com/vectors/login-button-login-rounded-red-sign-login-vector-id1177861857?b=1&k=20&m=1177861857&s=612x612&w=0&h=_7eGXQich9zkMh-NsWAJwcQJo-mc_XXLJSlfIqj0CjI=" width="6%" alt="">
-    </a>
+    <input type="image" src="https://media.istockphoto.com/vectors/login-button-login-rounded-red-sign-login-vector-id1177861857?b=1&k=20&m=1177861857&s=612x612&w=0&h=_7eGXQich9zkMh-NsWAJwcQJo-mc_XXLJSlfIqj0CjI=" width="6%">
     </form>
 
 
